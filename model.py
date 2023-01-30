@@ -30,4 +30,4 @@ if(pred[0][0]>0.5):
 else:
     print("Unlikely to get covid")
 
-pickle.dump(model, open('model.sav', 'wb'))
+pickle.dump(model, open('model.json', 'wb'))
